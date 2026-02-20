@@ -142,10 +142,27 @@ export default function Home() {
                 </p>
               </div>
               <div>
-                <h3 style={{ color: 'var(--color-white)' }}>Contáctanos</h3>
-                <p>Estamos listos para transformar tus ideas en realidad.</p>
-                <div style={{ marginTop: '2rem' }}>
-                  <button className="btn btn-primary">Solicitar Cotización</button>
+                <h3 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>Contáctanos</h3>
+                <p style={{ marginBottom: '0.75rem', color: '#A0A0A0', fontSize: '1rem' }}>
+                  <strong>Dirección: </strong>
+                  <a href="https://maps.app.goo.gl/M3UUz8noLVnAFEpB8" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'var(--color-orange)' }}>
+                    Emilio Carranza #62, Santa Anita, Iztacalco, CDMX 08300
+                  </a>
+                </p>
+                <p style={{ marginBottom: '0.75rem', color: '#A0A0A0', fontSize: '1rem' }}>
+                  <strong>Teléfonos: </strong>
+                  <a href="tel:+525590137368">+52 55 9013 7368</a> |{' '}
+                  <a href="tel:+525545039988">+52 55 4503 9988</a> |{' '}
+                  <a href="https://wa.me/525576172220" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366' }}>+52 55 7617 2220 (WhatsApp)</a>
+                </p>
+                <p style={{ marginBottom: '1.5rem', color: '#A0A0A0', fontSize: '1rem' }}>
+                  <strong>Correos: </strong>
+                  <a href="mailto:onixmfc@gmail.com">onixmfc@gmail.com</a> |{' '}
+                  <a href="mailto:joseCappon@gmail.com">joseCappon@gmail.com</a> |{' '}
+                  <a href="mailto:salocappon@gmail.com">salocappon@gmail.com</a>
+                </p>
+                <div style={{ marginTop: '1.5rem' }}>
+                  <a href="mailto:salocappon@gmail.com" className="btn btn-primary" style={{ textDecoration: 'none' }}>Contáctanos</a>
                 </div>
               </div>
             </div>
