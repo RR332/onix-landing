@@ -34,7 +34,7 @@ export default function Home() {
                 Empresa 100% mexicana, dedicada a la inyección de plástico desde 1983. Brindando satisfacción a grandes empresas y clientes particulares a través de la constante innovación.
               </p>
               <div style={{ display: 'flex', gap: '1rem' }}>
-                <a href="#contacto" className="btn btn-primary">Contáctanos</a>
+                <a href="#contacto" className="btn btn-primary">Contáctanos<a href="mailto:salocappon@gmail.com" className="btn btn-primary" style={{ textDecoration: 'none' }}></a>
                 <a href="#historia" className="btn btn-secondary">Conocer más</a>
               </div>
             </div>
@@ -167,7 +167,8 @@ export default function Home() {
               </div>
             </div>
             <div className="footer-bottom">
-              <p>&copy; {new Date().getFullYear()} Onix Plásticos. Todos los derechos reservados.</p>
+              <p>&copy; {new Date().getFullYear()} Onix Plásticos 2026. Todos los derechos reservados.
+              Emilio Carranza #62, Santa Anita, Iztacalco. CP 08300, Ciudad de México. CDMX</p>
             </div>
           </div>
         </footer>
